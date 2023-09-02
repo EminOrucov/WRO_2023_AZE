@@ -81,7 +81,7 @@ void loop() {
   if (digitalRead(raspgreen) == 0) {
     delay(10);
     if (digitalRead(raspgreen) == 0) {
-      //move right
+      //move left
       steering.write(40);
       forward(255, 500);
     }
